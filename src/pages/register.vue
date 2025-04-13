@@ -52,7 +52,7 @@
         </v-form>
   
         <div class="text-center mt-4">
-          <small>Já tem uma conta? <a href="/login">Entrar</a></small>
+          <small>Já tem uma conta? <Router-link to="/login">Entrar</Router-link></small>
         </div>
       </v-card>
     </v-container>
@@ -106,8 +106,3 @@ export default {
 
 
 </style>
-  
-<route lang="yaml">
-meta:
-    layout: false
-</route>
